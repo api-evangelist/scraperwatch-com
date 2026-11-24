@@ -1,4 +1,4 @@
-# scraperwatch-com
+# ScraperWatch
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scraperwatch-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://scraperwatch.com/
+ScraperWatch is an independent, data‑driven project that benchmarks and compares ready‑made web scrapers and scraping APIs across hundreds of websites. It aggregates public statistics, runs automated measurements, and publishes rankings, methodology, and raw data without sponsorship or paid influence. The service provides transparency on scraper reliability, performance, and pricing, and offers open data for developers and researchers.
+
+**Areas:** Data · Web Scraping · Benchmark · Open Data · API Comparison
+
+## ScraperWatch on APIs.io
+
+Everything profiled for ScraperWatch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scraperwatch-com/](https://apis.io/providers/scraperwatch-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ScraperWatch API](https://apis.io/apis/scraperwatch-com/scraperwatch-api/) — ScraperWatch provides a benchmarking API for web scrapers, exposing data about scraper performance and rankings.
+- [ScraperWatch API](https://apis.io/apis/scraperwatch-com/scraperwatch-com-api/) — ScraperWatch API as documented publicly: 14 operations. Contract generated from the documentation by API Evangelist (2026-11-24); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetResponse](https://apis.io/schemas/scraperwatch-com/scraperwatch-com-get-response/)
+- [GetV2ActsPndaGoogleSearchScraperRunSyncGetDatasetItemsRespon](https://apis.io/schemas/scraperwatch-com/scraperwatch-com-get-v2-acts-pnda-google-search-scraper-run-sync-get-dataset-items-respon/)
+- [PostRequest](https://apis.io/schemas/scraperwatch-com/scraperwatch-com-post-request/)
+- [PostResponse](https://apis.io/schemas/scraperwatch-com/scraperwatch-com-post-response/)
+- [PostV2ActsJohnvcGoogleMapsPlacesApiRunSyncGetDatasetItemsReq](https://apis.io/schemas/scraperwatch-com/scraperwatch-com-post-v2-acts-johnvc-google-maps-places-api-run-sync-get-dataset-items-req/)
+- [PostV2ActsPndaGoogleSearchScraperRunSyncGetDatasetItemsReque](https://apis.io/schemas/scraperwatch-com/scraperwatch-com-post-v2-acts-pnda-google-search-scraper-run-sync-get-dataset-items-reque/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Scraperwatch Com Context](https://apis.io/jsonld/scraperwatch-com/scraperwatch-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ScraperWatch API Rules](https://apis.io/rules/scraperwatch-com/scraperwatch-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ScraperWatch Domain Security](https://apis.io/security/scraperwatch-com/scraperwatch-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scraperwatch.com/)
+- [Documentation](https://scraperwatch.com/apis/)
+- [Changelog](https://scraperwatch.com/changelog/)
+
+## API Evangelist rating
+
+**Kin Score 31.9** — thin · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 53.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 19.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scraperwatch-com/](https://apis.io/providers/scraperwatch-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ScraperWatch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scraperwatch-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
